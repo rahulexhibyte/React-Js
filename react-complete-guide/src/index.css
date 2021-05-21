@@ -11,11 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 .expenses {
   background-color: rgba(238, 130, 238, 0.5);
   width: 50%;

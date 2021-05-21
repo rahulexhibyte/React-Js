@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.users {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.new-user {
+  background-color: #121212;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.form-controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.form-control {
+  flex: 1;
+  display: flex;
+  margin: 1rem 1rem 0 1rem;
+  flex-direction: column;
+}
+
+.form-control > input {
+  padding: 5px 10px;
+  margin: 5px 0;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.error-txt {
+  margin: 5px 0 0 2rem;
+  color: red;
+}
+
+.adduser-btn {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.user-list {
+  background-color: #121212;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.user-list .user-item {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  color: black;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.user-item:not(:last-child) {
+  margin: 0 0 1rem 0;
+}
