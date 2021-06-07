@@ -1,0 +1,5 @@
+@import "~antd/dist/antd.css";
+@font-face {
+  font-family: "restaurant";
+  src: url("../src/assets/fonts/Restaurants.ttf");
+}

@@ -1,0 +1,101 @@
+.profile-txt {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+.sider-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  background-image: url("https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1280&h=888");
+  height: 15vw;
+  width: 15vw;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5vh;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 10px 40px rgba(22, 20, 19, 0.4);
+}
+
+.profile-user-name {
+  text-align: center;
+  max-width: 15vw;
+  min-width: 15vw;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.orders-desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.orders-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.orders-list {
+  padding: 1rem 1rem 2rem 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.order-item {
+  display: flex;
+  align-items: space-around;
+  justify-content: space-between;
+  background-color: #fff;
+  flex-direction: column;
+  width: 18vw;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 2px 10px 20px rgba(22, 20, 19, 0.4);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.order-time,
+.order-price {
+  font-weight: bold;
+}
+
+.order-price {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.order-item-name {
+  font-size: 1.5rem;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.order-statistic {
+  width: 80vw;
+}
+
+.order-statistic-item {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.statistic-tag {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.statistic-amount {
+  font-size: 2rem;
+}
